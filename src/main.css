@@ -4,7 +4,33 @@ body {
   background-color: rgb(31, 31, 31);
   color: white;
 }
-
+h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+.player-indicator {
+  font-size: 12px;
+  display: inline-block;
+  margin-bottom: 0px;
+}
+#timer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 5em;
+}
+.timer-component {
+  margin: 0px;
+  margin-top: 0px;
+}
+.game {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.row {
+  min-width: 600px;
+}
 .square {
   display: inline-block;
   width: 185px;
@@ -14,21 +40,6 @@ body {
   vertical-align: top;
   font-size: 700%;
   color: rgb(255, 255, 255);
-}
-
-.row {
-  min-width: 600px;
-}
-
-#timer {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  font-size: 8em;
-}
-#timer p {
-  margin: 0px;
-  margin-top: 20px;
 }
 
 .counterPlayers {
