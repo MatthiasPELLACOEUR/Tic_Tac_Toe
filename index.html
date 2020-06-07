@@ -9,11 +9,11 @@
 
     <button id="newGame">New Game</button>
 
-    <div>
-      <p class="player-indicator">player 1 : X</p>
-      <p class="player-indicator">player 2 : O</p>
+    <div class="counterPlayers">
+      <p>moves : </p>
+      <p id="countMove">0</p>
     </div>
-
+    
     <div id="timer">
       <p class="timer-component" id="h-tens">0</p>
       <p class="timer-component" id="h-ones">0</p>
@@ -24,13 +24,10 @@
       <p class="timer-component" id="s-tens">0</p>
       <p class="timer-component" id="s-ones">0</p>
       <br />
+      
     </div>
 
     <div class="game">
-      <div class="counterPlayers">
-        <p>player 1:</p>
-        <p id="countPlayerX">0</p>
-      </div>
 
       <div class="container">
         <div class="row" id="squares">
@@ -46,11 +43,6 @@
           <p class="square" id="21"></p>
           <p class="square" id="22"></p>
         </div>
-      </div>
-
-      <div class="counterPlayers">
-        <p>player 2:</p>
-        <p id="countPlayerO">0</p>
       </div>
     </div>
 

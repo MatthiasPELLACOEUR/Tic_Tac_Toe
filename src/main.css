@@ -48,3 +48,7 @@ h2 {
   align-items: center;
   justify-content: center;
 }
+
+.counterPlayers p{
+  margin-bottom: 5px;
+}
