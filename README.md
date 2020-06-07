@@ -1,2 +1,2 @@
 # tictactoe-poojs
-game tictactoe in poo js
+tictactoe in OOP JS
